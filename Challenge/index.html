@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Secreto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Amigo Secreto</h1>
+    <div class="container">
+        <input type="text" id="nameInput" placeholder="Ingresa un nombre">
+        <button onclick="addName()">Agregar</button>
+        <table id="namesTable">
+            <thead>
+                <tr>
+                    <th>Nombres</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Los nombres aparecerán aquí -->
+            </tbody>
+        </table>
+        <button onclick="selectSecretFriend()">Seleccionar Amigo Secreto</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
